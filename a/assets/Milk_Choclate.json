@@ -1,0 +1,34 @@
+[
+
+{
+    "prodId": "M1",
+    "prodName" : "Milk Choclate 1",
+    "imgurl" : "./assets/Milk1.jpg",
+    "price" :3500
+},
+{
+
+    "prodId": "M2",
+    "prodName" : "Milk Choclate 2",
+    "imgurl" : "./assets/Milk2.jpg",
+    "price" :2500
+
+},
+
+{
+    
+    "prodId": "M3",
+    "prodName" : "Milk Choclate 3",
+    "imgurl" : "./assets/Milk3.jpg",
+    "price" :2000
+},
+{
+    
+    "prodId": "M4",
+    "prodName" : "Milk Choclate 4",
+    "imgurl" : "./assets/Milk4.jpg",
+    "price" :2200
+}
+
+
+]

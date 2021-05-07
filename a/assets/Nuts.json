@@ -1,0 +1,35 @@
+[
+
+    {
+        "prodId": "N1",
+        "prodName" : "Almonds",
+        "imgurl" : "./assets/Nuts1.jpg",
+        "price" :2500
+    },
+    {
+    
+        "prodId": "N2",
+        "prodName" : "Walnut",
+        "imgurl" : "./assets/Nuts2.jpg",
+        "price" :2000
+    
+    }, 
+    
+    {
+        
+        "prodId": "N3",
+        "prodName" : "Cashew",
+        "imgurl" : "./assets/Nuts3.jpg",
+        "price" :3500
+    },
+    {
+    
+        "prodId": "N4",
+        "prodName" : "Chest",
+        "imgurl" : "./assets/chest.jpg",
+        "price" :2000
+    
+    }
+    
+    
+    ]

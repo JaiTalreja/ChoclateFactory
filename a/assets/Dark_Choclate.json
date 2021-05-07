@@ -1,0 +1,35 @@
+[
+
+    {
+        "prodId": "D1",
+        "prodName" : "Dark Choclate 1",
+        "imgurl" : "./assets/Dark1.jpg",
+        "price" :3250
+    },
+    {
+    
+        "prodId": "D2",
+        "prodName" : "Dark Choclate 2",
+        "imgurl" : "./assets/Dark2.jpg",
+        "price" :4450
+    },
+    
+    {
+        
+        "prodId": "D3",
+        "prodName" : "Dark Choclate 3",
+        "imgurl" : "./assets/Dark3.jpg",
+        "price" :5050
+    },
+    {
+        
+        "prodId": "D4",
+        "prodName" : "Dark Choclate 4",
+        "imgurl" : "./assets/Dark4.jpg",
+        "price" :3500
+    }
+
+    
+    
+    
+    ]

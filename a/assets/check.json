@@ -1,0 +1,29 @@
+[
+
+    {
+        "prodId": 1,
+        "prodName" : "Dark Choclate 1",
+       
+        "imgurl" : "./assets/Dark1.jpg",
+        "pice" :250
+    },
+    {
+    
+        "prodId": 2,
+        "prodName" : "Dark Choclate 2",
+       
+        "imgurl" : "./assets/Dark2.jpg",
+        "pice" :450
+    },
+    
+    {
+        
+        "prodId": 3,
+        "prodName" : "Dark Choclate 3",
+        
+        "imgurl" : "./assets/Dark3.jpg",
+        "pice" :550
+    }
+    
+    
+    ]
