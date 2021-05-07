@@ -1,0 +1,39 @@
+<header></header>
+<div class="root1">
+<div class="card">
+  <div class="container">
+     <h4>Available Choclates</h4>
+    </div>
+    <div class="container">
+     <button (click)="getchoclates('Milk')"  class="btn">Milk Choclate</button>
+    </div>
+    <div class="container">
+     <button (click)="getchoclates('Dark')" class="btn">Dark Choclate</button>
+    </div>
+    <div class="container">
+     <button (click)="getchoclates('Nut')" class="btn1">Nuts</button>
+    </div>
+  </div>
+</div>
+
+<!-- calling the products on click-->
+
+<div class="root2">
+<table class="card">
+
+  <tr>
+    <td *ngFor="let ch of choclates">  
+      <div >
+               <h3>{{ch.prodName}}</h3>
+        <img class="img1" [src]="ch.imgurl" alt="{{ch.prodId}}">
+        <p></p><p class="price">{{ch.price | currency : 'INR' : 'symbol':'1.2-2'}}</p>
+        <p><a (click)="addcart(ch)"> <img src='./assets/plus.png' width ="50 px" height="50 px"></a>ADD OR DELETE <span ></span>
+          <a  (click)="decreaseqty(ch)" > <img src='./assets/minus.jpg' width ="50 px" height="50 px"></a> </p>
+      
+    </div>
+    </td>
+  </tr>
+
+
+</table>
+</div>

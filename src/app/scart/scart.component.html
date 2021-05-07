@@ -1,0 +1,39 @@
+<div >
+
+    <table class= "table">
+    <tr>
+        <th></th>
+        <th>Choclates</th>
+        <th>Quantity</th>
+        <th>Price per Unit</th>
+        <th>Total</th>
+        <th>Remove</th>
+    </tr>
+    <tr  *ngFor="let ch of cart">
+        <td><img class="small_image"[src]="ch.prodImg"></td>
+        <td>{{ch.prodName}}</td>
+        <td> <a (click)="decreaseqty(ch)"> <img src='./assets/minus.jpg' width ="50 px" height="50 px"></a>  {{ch.prodQuantity}} <a (click)="increaseqty(ch)"> <img src='./assets/plus.png' width ="50 px" height="50 px"></a> </td>
+        <td>{{ch.prodPrice|currency : 'INR' : 'symbol':'1.2-2'}}</td>
+        <td>{{ch.prodPrice*ch.prodQuantity |currency : 'INR' : 'symbol':'1.2-2'}}</td>
+        <td><a (click)="delete(ch)"><img src="./assets/remove.png" width="20 px" height= "20 px"></a></td>
+
+    </tr>
+
+    <tr>
+
+        <td><button routerLink='/category'>Back To Shopping</button></td>
+        <td>Total =</td>
+        <td>{{qqt}}</td>
+        <td>{{ggt|currency : 'INR' : 'symbol':'1.2-2'}}</td>
+        <td><button (click)="address()">Checkout</button></td>
+        <td><button (click)="clearCart()">Clear Cart</button></td>
+
+    </tr>
+    </table>
+        
+        
+</div>
+   
+<div *ngIf = "bool">
+    {{message}}
+</div>
